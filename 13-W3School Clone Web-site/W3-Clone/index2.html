@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+</head>
+
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+
+    .navbar {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: space-evenly;
+        background-color: black;
+        padding: 10px;
+        height: 30px;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        color: green;
+        text-decoration: underline;
+    }
+
+    .fooder {
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 93vh;
+        background-image: url(img1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    h1 p {
+        margin-top: 50px;
+
+    }
+
+    .fooder input {
+        outline: none;
+        background: rgba(255, 255, 255, 0.1);
+    }
+</style>
+
+<body>
+    <div class="navbar">
+        <p><a href="index.html">HTML</a></p>
+        <p><a href="index3.html">CSS</a></p>
+        <p><a href="">JAVASCRIPT</a></p>
+        <p><a href="">SQL</a></p>
+        <p><a href="">PYTHON</a></p>
+        <p><a href="">JAVA</a></p>
+        <p><a href="">PHP</a></p>
+        <p><a href="">HOW TO</a></p>
+        <p><a href="">W3.CSS</a></p>
+        <p><a href="">C</a></p>
+    </div>
+    <!-- <img src="img_lights.jpg"> -->
+    <div class="fooder">
+        <h1>LEARNING TO CODE</h1>
+        <p style="margin-top: 20px;">With the World's Largest Web Devloper Site</p>
+        <input type="search" size="50px"
+            style="border-radius: 30px;border:2px solid rgba(5, 5, 5,0.5);margin-top: 30px;">
+    </div>
+</body>
+
+</html>

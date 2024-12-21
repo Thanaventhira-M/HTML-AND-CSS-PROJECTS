@@ -1,0 +1,297 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* General Classes */
+.Main-class, .sections {
+    max-width: 100%;
+}
+
+.container {
+    padding: 10px 25px;
+    margin-bottom: 40px;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 5%;
+    color: white;
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.header-child {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/* Button Styles */
+.mybtn, .last button {
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.mybtn:hover, .last button:hover {
+    background-color: #333;
+}
+
+/* Banner Section */
+.baner-wrap {
+    text-align: center;
+    padding: 200px 10px;
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.baner-wrap h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.baner-wrap p {
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+/* Navigation Section */
+.navsection p {
+    text-align: center;
+    margin-top: 35px;
+    color: #B2B7BE;
+    padding-bottom: 50px;
+}
+
+.navline h2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Filter Section */
+.filtersection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.next-box {
+    background-color: #EBEBEB;
+    text-align: center;
+    padding: 25px;
+}
+
+.next-box h1, .next-box p {
+    margin: 10px 0;
+}
+
+/* Content Boxes */
+.para-box {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.para-box h2 {
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.para-box p {
+    margin-bottom: 10px;
+}
+
+.para-img img {
+    display: block;
+    margin: 0 auto;
+}
+
+.para-img2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.para-img2 h2 {
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.para-img2 h4 {
+    margin-bottom: 5px;
+}
+
+.para-img2 p {
+    margin-bottom: 30px;
+}
+
+/* Textbox Section */
+.textbox {
+    text-align: left;
+    margin: 20px;
+}
+
+.textbox h2 {
+    color: blue;
+    margin-bottom: 10px;
+}
+
+/* Color Box */
+.change-color {
+    background-color: cadetblue;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.color h1, .color p {
+    margin-bottom: 20px;
+}
+
+/* Order Boxes */
+.order-box1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.order-box p {
+    color: white;
+}
+
+/* Rename Content */
+.rename-cont {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.rename-cont img, .rename-2cont img {
+    display: block;
+    margin: 0 auto;
+}
+
+.rename-2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rename-2cont h3 {
+    text-align: center;
+}
+
+.rename-2cont a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.rename-2cont a:hover {
+    color: blue;
+}
+
+/* Last Section */
+.last-one {
+    background-image: url(img12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 10% 5%;
+    color: white;
+}
+
+.last h1 {
+    margin-bottom: 20px;
+}
+
+.last button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.last-one p {
+    margin-top: 10px;
+}
+
+/* Find Section */
+.find {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.find-out {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+/* Horizontal Line Section */
+.hr {
+    padding-bottom: 10%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-child {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .baner-wrap {
+        padding: 100px 10px;
+    }
+
+    .para-box, .para-img2, .rename-cont {
+        text-align: center;
+    }
+
+    .order-box1 {
+        flex-direction: column;
+    }
+
+    .find {
+        flex-direction: column;
+        align-items: center;
+    }
+}

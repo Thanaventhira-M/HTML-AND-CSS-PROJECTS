@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+.header {
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    background-image: url(Rectangle.png);
+    height: 100vh;
+}
+
+.header-child {
+    position: absolute;
+    display: flex;
+    gap: 50px;
+    left: 30%;
+    padding: 20px;
+}
+
+.header-child a {
+    color: #fff;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.header-child a:hover {
+    color: #E9BD8C;
+}
+
+.inside-head {
+    position: absolute;
+    top: 40%;
+    left: 80px;
+}
+
+.inside-head h2 {
+    color: #E9BD8C;
+    padding: 40px;
+
+}
+
+.inside-head h1 {
+    color: white;
+
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inside-head button {
+    background: transparent;
+    padding: 15px;
+    border-style: none;
+    color: white;
+    border-radius: 10px;
+    width: 110px;
+    margin-top: 30px;
+}
+
+.inside-head button:hover {
+    background-color: #933C24;
+    color: white;
+}
+
+.image-head h1 {
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 40px;
+}
+
+.image-class {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.img-class-child {
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.img-11 {
+    transition: transform 0.6s ease;
+}
+
+.img-11:hover {
+    transform: scale(1.1);
+}
+
+.img-12 img {
+    position: absolute;
+    top: 2%;
+    left: 80px;
+    color: white;
+    display: inline-block;
+}
+
+.img-inHead {
+    position: absolute;
+    top: 245px;
+    margin-left: 10px;
+    color: white;
+}
+
+.img-inHead h4 {
+    padding: 10px;
+
+}
+
+.img-inHead h3 {}
+
+.img-inHead button {
+    position: relative;
+    margin-left: 180px;
+    padding: 10px;
+    width: 90px;
+    top: -30px;
+    background-color: #933C24;
+    color: #fff;
+    border-style: none;
+
+}
+
+.img-22 img {
+    position: relative;
+    right: -100px;
+    top: -320px;
+}
+
+.img-33 img {
+    position: relative;
+    right: -100px;
+    top: -320px;
+}
+
+.img-44 img {
+    position: relative;
+    right: -100px;
+    top: -320px;
+}
+
+.section-3 {
+    margin-top: 40px;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.section-cake {
+    display: flex;
+    gap: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    transition: transform 1.6s ease;
+
+}
+
+.section-cake p:hover {
+
+    text-decoration: underline;
+    transform: scale(1.1);
+
+}
+
+.End {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    background-image: url(Rectangle75.png);
+}
+
+.end-1 h1,
+p,
+h4,
+h3 {
+    padding: 20px;
+    color: white;
+}

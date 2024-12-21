@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.navbar{
+    display: grid;
+    grid-auto-flow: column;
+    background-color: black;
+    /* height: 50px; */
+    padding: 10px;
+    align-items: center;
+    position: fixed;
+    width: 99%;
+    z-index: 100;
+
+} 
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+    width: 90px;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+
+}
+.introparent{
+    position: fixed;
+    left: 50%;
+}
+.boxrow h1{
+    position: fixed;
+    top: 70px;
+}
+.row a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: gray;
+}
+.row a:hover{
+   /* text-decoration: underline; */
+   color: white;
+   background-color: hwb(180 0% 45%);
+}
+
+.navbar a:hover{    
+    color: black;
+    background-color: gainsboro;
+}
+.row{
+    position: fixed;
+    top: 120px;
+    width: 280px;
+    height: 88vh;
+    overflow: scroll;
+   
+}
+
+.intro iframe{
+    margin-top: 50px;
+    margin-left: 180px;
+}
+
+.filterbox{
+    background-color: lightgreen;
+    width: 40%;
+    height: 200px;
+    padding: 20px;
+    margin-left: 150px;
+    
+}
+
+.filterbox button{
+    margin-right: 180px;
+}
+.filterbox:hover{
+    box-shadow: 0 0 40px black;
+    transition: all 0.5s linear;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 40px;
+}
+
+
+.filterbox p{
+    padding: 10px;
+}
+
+.intro button{
+    background-color: green;
+    width: 100px;
+    height: 50px;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    display: inline;
+    position: relative;
+    left: 90px;
+    text-decoration: none;
+    
+}
+.intro button a{
+background-color: transparent;
+user-select: none;
+}
+.intro h1{
+    margin-bottom: 10px;
+}
+.content{
+    background-color: lightgreen;
+     text-align: center;
+    position: relative;
+    left: 25%;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.content p{
+    padding: 20px;
+}
+
+.refer{
+    position: relative;
+    left: 30%;
+    width: 50%;
+    padding: 30px;
+}
+
+.refer p{
+    padding: 20px;
+    position: relative;
+    right: 20px;
+}
+.boxpara{
+    border: 50px solid gray;
+    width: 90%;
+    height: 300px;
+
+}
+.boxpara p{
+    padding: 20px;
+}
+
+.intro button:hover{
+    background-color: red;
+}
+#move a{
+ display: inline-block;
+ background-color: grey;
+ width: 110px;
+ height: 20px;
+ text-decoration: none;
+ color: white;
+ border-radius: 10px;
+ padding: 10px;
+ position: relative;
+ left: 40%;
+}
+
+#move a:hover{
+    background-color: green;
+    color: black;
+}
+.filterbox a{
+    position: relative;
+    left: 450px;
+    top: -150%;
+    /* text-decoration: none;
+    color: white;
+    background-color: lightslategray;
+    padding: 15px; */
+    
+}
+
+.filterbox a:hover{
+    background-color: green;
+    color: black;
+}
+
+.boxpara h1{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bcolor{
+    position: relative;
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    top: 136%;
+    display: inline-block;
+
+}
+
+.lbutton a{
+    text-decoration: none;
+    background-color: lightslategray;
+    color: white;
+    padding: 15px;
+    position: relative;
+    top: 30px;
+}
+
+.lbutton a:hover{
+    background-color: green;
+    color: black;
+}
+

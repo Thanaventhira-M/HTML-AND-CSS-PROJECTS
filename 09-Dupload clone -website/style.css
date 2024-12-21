@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 20px 10px -20px rgba(0, 0, 0, 0.45) inset, 20px 0 10px -20px rgba(0, 0, 0, 0.45) inset;
+
+}
+
+.fooder {
+    display: flex;
+    gap: 30px;
+    margin-right: 50px;
+
+}
+
+.btn1 {
+    padding: 10px;
+    left: 20%;
+    border-radius: 5px;
+    gap: 20px;
+    border-style: none;
+    background-color: #651FFF;
+    color: white;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.box {
+    background-image: url(i.png);
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.he2 {
+    padding: 50px;
+    margin-top: 5px;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.btn2 {
+    border-style: none;
+    padding: 10px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #651FFF;
+    color: white;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: aqua;
+    color: black;
+}
+
+#he1,
+p {
+
+    margin-top: 20px;
+}
+
+.imghead,
+h1 {
+
+    color: black;
+}
+
+.imghead,
+p {
+    font-size: 15px;
+}
+
+.main2 {
+    height: 70px;
+    width: 70px;
+    background-color: #ECECFE;
+    border-radius: 100%;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.main1 p {
+    text-align: justify;
+    color: white;
+}
+
+.main1 a {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.main1 a img {
+    margin-top: 30px;
+}
+
+#main {
+    background-color: #651FFF;
+    height: 300px;
+    width: 250px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.parent {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.paran2 {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#r4 {
+    background-color: #FFF7ED;
+    height: 500px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+
+    /* margin-top: 40px; */
+}
+
+#r5 {
+    background-color: #E0F7FA;
+    height: 500px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    /* margin-top: 40px; */
+}
+
+.r5parant {
+    display: flex;
+    gap: 100px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.neimage {
+    display: flex;
+    /* width: 100vw; */
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.ne1 {
+    margin-left: 100px;
+    padding-top: 100px;
+    position: relative;
+}
+
+
+.nextelement {
+    background-color: #ECECFE;
+
+}
+
+.nebtn {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #651FFF;
+    color: white;
+    cursor: pointer;
+}
+
+.nebtn:hover {
+    background-color: aqua;
+    color: black;
+    /* cursor: pointer; */
+}
+
+.nextelement {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 80px;
+}
+
+.neimage img {
+    position: absolute;
+    left: 50%;
+    /* bottom: 70%; */
+}
+
+
+.ntmain {
+
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.nebg {
+
+    margin-top: 20px;
+    background-color: #00E5FF;
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.nebg img {
+    padding: 15px;
+    margin-left: 3px;
+    width: 30px;
+
+}
+
+.ntmain2 {
+    display: flex;
+}
+
+.neh h3 {
+
+    margin-top: 15px;
+}
+
+.neh h5 {
+    margin-top: 30px;
+    color: #00E5FF;
+}
+
+.neh p {
+    text-align: justify;
+}
+
+.ntmain3 {
+    margin: 20px;
+}
+
+.wholediv {
+    display: flex;
+
+}
+
+
+
+.rightdivmain {
+    background-color: #FFFFFF;
+}
+
+.rightdiv {
+
+    background-color: #ECECFE;
+    margin-top: 70px;
+    /* background-color: #00E5FF; */
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+    /* margin-left: 50px; */
+    margin-left: 200px;
+}
+
+.rightdiv img {
+    padding: 15px;
+    margin-left: 5px;
+
+}
+
+.righth h3 {
+    /* display: flex; */
+    margin-top: 80px;
+    /* margin-left: 20px; */
+    margin-left: 5px;
+}
+
+.rightmain {
+    display: flex;
+    margin-top: 20px;
+}

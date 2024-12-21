@@ -1,0 +1,65 @@
+* body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo {
+    color: red;
+}
+
+.logo,
+.searchbar {
+    color: red;
+}
+
+.searchbar {
+    display: flex;
+    border: solid black 2px;
+    width: 30%;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.filtersection {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+}
+
+.filterbox {
+    color: gray;
+
+}
+
+.filterbox:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.card img {
+    border-radius: 50px;
+    position: relative;
+    transition: 1s;
+
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+.hotel-container {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+
+}

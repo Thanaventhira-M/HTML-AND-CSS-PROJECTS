@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.headers {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+    animation: fadeIn 1s ease-in-out;
+    /* Fade-in animation */
+
+}
+
+.headers h1 {
+    margin-left: 50px;
+}
+
+.header-name {
+    display: flex;
+    gap: 45px;
+    margin-right: 80px;
+    position: relative;
+}
+
+.header-name p:hover {
+    background-color: gold;
+    transition: background-color 0.5s ease;
+    /* Smooth transition on hover */
+    transform: scale(1.1);
+    /* Slight zoom effect */
+}
+
+.header-name button {
+    background-color: #4CAF4F;
+    border-style: none;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    padding-top: 5;
+    margin-top: -10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    /* Add hover animation */
+
+}
+
+.header-name button:hover {
+    background-color: #45A049;
+    transform: scale(1.1);
+    /* Slight zoom effect */
+}
+
+.insights-parent {
+    position: relative;
+
+
+}
+
+.insight-headings {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    animation: slideInFromLeft 1s ease-out;
+    /* Slide-in animation */
+
+}
+
+.insight-headings img {
+    position: absolute;
+    top: 5%;
+    left: 150%;
+    animation: bounce 2s infinite;
+    /* Bouncing effect */
+}
+
+.insight-headings h1 {
+    font-size: 50px;
+    font-style: italic;
+}
+
+.insight-headings h1,
+p,
+button {
+    padding: 10px;
+}
+
+.insight-headings button {
+    background-color: #4CAF4F;
+    padding: 10px;
+    width: 90px;
+    border-style: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    /* Smooth hover effect */
+}
+
+.insight-headings button:hover {
+    background-color: #45A049;
+    transform: scale(1.1);
+}
+
+.icon img {
+    position: absolute;
+    top: 250%;
+    left: 90%;
+    /* animation: rotate 4s linear infinite; Rotating effect */
+}
+
+.insights-head {
+    height: 90vh;
+    width: 100%;
+    background-color: gold;
+    animation: fadeIn 1s ease-in-out;
+    /* Fade-in animation */
+}
+
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .headers {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .headers h1 {
+        margin-left: 0;
+    }
+
+    .header-name {
+        flex-direction: column;
+        gap: 20px;
+        margin-right: 0;
+    }
+
+    .insight-headings {
+        top: 100px;
+        left: 100px;
+    }
+
+    .insight-headings h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .insight-headings {
+        top: 80px;
+        left: 50px;
+    }
+
+    .insight-headings h1 {
+        font-size: 24px;
+    }
+
+    .insight-headings button {
+        width: 70px;
+        padding: 6px;
+    }
+
+    .icon img {
+        top: 200%;
+        left: 80%;
+        display: none;
+    }
+}
